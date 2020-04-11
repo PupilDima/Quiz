@@ -11,7 +11,7 @@ import java.util.Properties;
 public class EmailSender {
     private final String LOGIN = "qucatsender@gmail.com";
     private final String PASSWORD = "tfvupauipqoymocc";
-    private Session session;
+    private final Session session;
 
     private final String[][] REGISTRATION_MESSAGE_CONSTANTS = {
             {"Підтвердження реєстрації на", "Добрий день",
